@@ -1,8 +1,16 @@
 ## ROSMASTER
-      The ROS Master provides name registration and lookup to the rest of the Computation Graph. Without the Master, nodes would not be able to find each other, exchange messages. 
+      The ROS Master provides name registration and lookup to the rest of the Computation Graph. 
+      Without the Master, nodes would not be able to find each other, exchange messages. 
 
 ## Node
-      Nodes are processes that perform computation. ROS is designed to be modular at a fine-grained scale; a robot control system usually comprises many nodes. For example, one node controls a laser range-finder, one node controls the wheel motors, one node performs localization, one node performs path planning, one Node provides a graphical view of the system, and so on. A ROS node is written with the use of a ROS client library, such as roscpp or rospy.
+      Nodes are processes that perform computation. 
+      ROS is designed to be modular at a fine-grained scale; a robot control system usually comprises many nodes. 
+      For example, one node controls a laser range-finder, one node controls the wheel motors, one node performs localization, one node performs path planning, and so on. 
+
+## Messages
+       Nodes communicate with each other by passing messages. 
+       A message is simply a data structure, comprising typed fields. 
+       Standard primitive types (integer, floating point, boolean, etc.) are supported, as are arrays of primitive types. Messages can include arbitrarily nested structures and arrays (much like C structs).
 
 ## Topic 
      Topics are buses used by nodes to transmit data. 
