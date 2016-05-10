@@ -1,5 +1,5 @@
 ## rqt_plot
-     $ rqt_plot feedback_wheel_angularVel/x feedback_wheel_angularVel/y feedback_wheel_angularVel/pose/z
+     $ rqt_plot feedback_wheel_angularVel/x feedback_wheel_angularVel/y feedback_wheel_angularVel/z
 
 ## Record all topics.
      $ rosbag record -a
