@@ -17,6 +17,7 @@
 ## configuring ROS_MASTER_URI in matlab
      $ rosinit('http://will-UX32LN:11311')
 
+## rqt_graph
      
      
      
