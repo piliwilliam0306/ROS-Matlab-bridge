@@ -1,6 +1,3 @@
-# ROS-Matlab-bridge
-
-# Reocord Topics
 
 ## Record all topics.
      $ rosbag record -a
