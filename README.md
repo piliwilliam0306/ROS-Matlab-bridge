@@ -11,3 +11,6 @@
 
 ## Rosbag play
       $ rosbag play banana.bag
+
+## configuring ROS_MASTER_URI in matlab
+     $ rosinit('http://192.168.25.106:11311')
