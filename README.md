@@ -1,3 +1,5 @@
+## rqt_plot
+     $ rqt_plot feedback_wheel_angularVel/x feedback_wheel_angularVel/y feedback_wheel_angularVel/pose/z
 
 ## Record all topics.
      $ rosbag record -a
@@ -13,4 +15,8 @@
       $ rosbag play banana.bag
 
 ## configuring ROS_MASTER_URI in matlab
-     $ rosinit('http://192.168.25.106:11311')
+     $ rosinit('http://will-UX32LN:11311')
+
+     
+     
+     
