@@ -25,6 +25,8 @@
 ## rqt_plot
      $ rqt_plot feedback_wheel_angularVel/x feedback_wheel_angularVel/y 
 
+![](https://github.com/piliwilliam0306/ROS-Matlab-bridge/blob/master/rqt_plot.png)
+
 ## Record all topics.
      $ rosbag record -a
 
