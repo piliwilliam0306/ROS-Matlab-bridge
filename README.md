@@ -40,6 +40,10 @@
 ## Rosbag play
       $ rosbag play banana.bag
 
+##  Rosserial 
+      A host-side to communicate with MCU such as Arduino. It can handles setup, publishing, and subscribing.
+      $ rosrun rosserial_python serial_node.py _port:=/dev/ttyACM0 _baud:=57600
+
 ## configuring ROS_MASTER_URI in matlab
      $ rosinit('http://will-UX32LN:11311')
 
@@ -50,5 +54,7 @@
 http://wiki.ros.org/rosbag
 http://wiki.ros.org/rqt_plot
 http://wiki.ros.org/rqt_graph
+http://wiki.ros.org/rosserial_python
+http://wiki.ros.org/rosserial_arduino
 http://www.mathworks.com/help/robotics/examples/exchange-data-with-ros-publishers-and-subscribers.html
      
