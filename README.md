@@ -55,7 +55,10 @@
 ## configuring ROS_MASTER_URI in matlab
      $ rosinit('http://will-UX32LN:11311')
 
-## rqt_graph
+roslaunch andbot_gazebo andbot_gazebo.launch
+
+## Start a Robot Simulator
+     $ roslaunch andbot_gazebo andbot_gazebo.launch
      
 ## Reference
 
