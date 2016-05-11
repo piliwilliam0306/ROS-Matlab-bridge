@@ -55,10 +55,11 @@
 ## configuring ROS_MASTER_URI in matlab
      $ rosinit('http://will-UX32LN:11311')
 
-roslaunch andbot_gazebo andbot_gazebo.launch
-
 ## Start a Robot Simulator
      $ roslaunch andbot_gazebo andbot_gazebo.launch
+
+## Publishing and subscribing topic from simulink
+![](https://github.com/piliwilliam0306/ROS-Matlab-bridge/blob/master/banana.jpg)
      
 ## Reference
 
