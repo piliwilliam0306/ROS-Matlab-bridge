@@ -20,7 +20,6 @@
      Each topic is strongly typed by the ROS message type used to publish it, and nodes can only receive messages from a matching type. 
      A node can subscribe to a topic only if it has the same message type.
      The topics in ROS can be transmitted using TCP/IP and UDP. 
-     The TCP/IP-based transport is known as TCPROS and uses the persistent TCP/IP connection. 
      
 ## rqt_plot
      $ rqt_plot feedback_wheel_angularVel/x feedback_wheel_angularVel/y 
@@ -52,9 +51,14 @@
 ## Reference
 
 http://wiki.ros.org/rosbag
+
 http://wiki.ros.org/rqt_plot
+
 http://wiki.ros.org/rqt_graph
+
 http://wiki.ros.org/rosserial_python
+
 http://wiki.ros.org/rosserial_arduino
+
 http://www.mathworks.com/help/robotics/examples/exchange-data-with-ros-publishers-and-subscribers.html
      
