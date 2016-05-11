@@ -70,4 +70,6 @@ http://wiki.ros.org/rosserial_python
 http://wiki.ros.org/rosserial_arduino
 
 http://www.mathworks.com/help/robotics/examples/exchange-data-with-ros-publishers-and-subscribers.html
+
+http://www.mathworks.com/help/robotics/examples/connect-to-a-ros-enabled-robot-from-simulink.html
      
