@@ -20,6 +20,15 @@
      Each topic is strongly typed by the ROS message type used to publish it, and nodes can only receive messages from a matching type. 
      A node can subscribe to a topic only if it has the same message type.
      The topics in ROS can be transmitted using TCP/IP and UDP. 
+
+## Display a list of current topics.
+     $ rostopic list
+
+## Display messages published to a topic.
+     $ rostopic echo /banana
+
+## Display the publishing rate of a topic
+     $ rostopic hz /banana
      
 ## rqt_plot
      $ rqt_plot feedback_wheel_angularVel/x /cmd_wheel_angularVel/x 
