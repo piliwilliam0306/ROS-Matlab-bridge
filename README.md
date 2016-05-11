@@ -22,7 +22,7 @@
      The topics in ROS can be transmitted using TCP/IP and UDP. 
      
 ## rqt_plot
-     $ rqt_plot feedback_wheel_angularVel/x feedback_wheel_angularVel/y 
+     $ rqt_plot feedback_wheel_angularVel/x /cmd_wheel_angularVel/x 
 
 ![](https://github.com/piliwilliam0306/ROS-Matlab-bridge/blob/master/rqt_plot.png)
 
