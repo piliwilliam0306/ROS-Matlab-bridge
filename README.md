@@ -1,5 +1,6 @@
 ## ROSMASTER
       The ROS Master provides naming and registration services to the rest of the nodes in the ROS system. 
+      It tracks publishers and subscribers to topics.
       The role of the Master is to enable individual ROS nodes to locate one another. 
       Once these nodes have located each other they communicate with each other peer-to-peer.
       Without the Master, nodes would not be able to find each other, exchange messages. 
