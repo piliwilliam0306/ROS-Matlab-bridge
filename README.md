@@ -2,6 +2,8 @@
       The ROS Master provides name registration and lookup to the rest of the Computation Graph. 
       Without the Master, nodes would not be able to find each other, exchange messages. 
 
+![](https://github.com/piliwilliam0306/ROS-Matlab-bridge/blob/master/node_communication.png)
+
 ## Node
       Nodes are processes that perform computation. 
       ROS is designed to be modular at a fine-grained scale; a robot control system usually comprises many nodes. 
