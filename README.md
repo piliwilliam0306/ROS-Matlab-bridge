@@ -3,9 +3,11 @@
 
 ● It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, etc.
 
-● ROS is licensed under an open source, BSD license.
       
-      
+## Why ROS
+● Open source. 
+
+● ROS supports a wide range of sensors (you can also write a ROS driver for your sensor) and actuators. This helps in quick implementation of the algorithm and cuts down time required for integrating hardware. 
 
 ## ROSMASTER
       The ROS Master provides naming and registration services to the rest of the nodes in the ROS system. 
