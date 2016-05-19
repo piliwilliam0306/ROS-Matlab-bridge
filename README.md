@@ -1,5 +1,5 @@
 ## What is ROS
-● ROS provides libraries and tools to help developers create robot applications.
+● ROS is a software framework provides libraries and tools to help developers building, writing, and running code accross multiple computers.
 
 ● It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, etc.
 
