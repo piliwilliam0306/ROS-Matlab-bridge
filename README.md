@@ -1,3 +1,10 @@
+## What is ROS
+      ● ROS provides libraries and tools to help developers create robot applications.
+      ● It provides hardware abstraction, device drivers, libraries, visualizers, message-passing, etc.
+      ● ROS is licensed under an open source, BSD license.
+      
+      
+
 ## ROSMASTER
       The ROS Master provides naming and registration services to the rest of the nodes in the ROS system. 
       It tracks publishers and subscribers to topics.
